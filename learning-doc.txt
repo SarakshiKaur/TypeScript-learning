@@ -1,0 +1,9 @@
+WHAT IS TYPESCRIPT?
+=> TypeScript is a superset of JavaScript that adds static typing.
+=> It is developed by Microsoft.
+=> It is essentially JavaScript with the addition of type annotations and static type checking
+   , allowing developers to catch errors at compile-time rather than at runtime. 
+   This helps address one of the main limitations of JavaScript.
+=> Remember, TypeScript is a development tool, not a separate programming language. 
+   The TypeScript code is ultimately compiled into regular JavaScript before it runs, 
+   ensuring compatibility with existing JavaScript environments.
