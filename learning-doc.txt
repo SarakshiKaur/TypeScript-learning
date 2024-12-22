@@ -14,3 +14,8 @@ GLOBALLY INSTALLING TYPESCRIPT
    tsc command anywhere in your terminal.
    To do this, run npm install -g typescript.
 => Check version with command, tsc -v
+
+RUN TS FILE 
+=> You can compile a TypeScript file with the command, tsc filename.ts
+   This will create a new JavaScript file with the same name but with a .js extension.
+   You can then run the JavaScript file with Node.js.
