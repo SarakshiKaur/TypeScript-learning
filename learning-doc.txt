@@ -7,3 +7,9 @@ WHAT IS TYPESCRIPT?
 => Remember, TypeScript is a development tool, not a separate programming language. 
    The TypeScript code is ultimately compiled into regular JavaScript before it runs, 
    ensuring compatibility with existing JavaScript environments.
+
+GLOBALLY INSTALLING TYPESCRIPT
+=> via npm
+   You can use npm to install TypeScript globally, this means that you can use the 
+   tsc command anywhere in your terminal.
+   To do this, run npm install -g typescript.
