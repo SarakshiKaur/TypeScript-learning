@@ -19,3 +19,19 @@ RUN TS FILE
 => You can compile a TypeScript file with the command, tsc filename.ts
    This will create a new JavaScript file with the same name but with a .js extension.
    You can then run the JavaScript file with Node.js.
+
+
+
+SOME BEHAVIOURS OF TS THAT I AM LEARNING
+=> TypeScript is based on a STRUCTURAL TYPE SYSTEM, which means that when you create a custom type 
+   with specific properties (e.g., two keys, each having a string type), TypeScript will check if 
+   the object passed to a function has at least the required properties with the correct types.
+   However, TypeScript does not enforce exact matches. If the object has additional properties 
+   beyond those defined in the type, it will not show an error as long as the required properties 
+   are present and their types are correct.
+   
+   In other words, TypeScript only cares about the properties specified in the type 
+   and ensures they are correct. It does not check for extra properties that are not mentioned 
+   in the type.
+
+   For an example, please refer to the file objects/objects.ts.
